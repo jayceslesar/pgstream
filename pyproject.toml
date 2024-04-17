@@ -1,0 +1,19 @@
+[project]
+name = "pgstream"
+version = "0.1.0"
+description = "Playground for Streaming with Postgres"
+authors = [
+    {name = "jayceslesar", email = "jaycesles@gmail.com"},
+]
+dependencies = [
+    "litestar>=2.8.2",
+    "psycopg2-binary>=2.9.9",
+    "alembic>=1.13.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
